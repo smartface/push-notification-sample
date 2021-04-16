@@ -6,6 +6,7 @@ import System from "sf-core/device/system";
 import "theme";
 import "sf-extension-utils";
 import router from "routes";
+import 'firebase';
 
 // Set uncaught exception handler, all exceptions that are not caught will
 // trigger onUnhandledError callback.

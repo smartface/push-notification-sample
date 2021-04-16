@@ -1,2 +1,9 @@
 dependencies {
+implementation project(":firebaseplugin")
 }
+apply plugin:  'com.google.gms.google-services'
+apply plugin: 'io.fabric'  
+crashlytics {  
+    enableNdk=true  
+}
+ext.enableCrashlytics = false

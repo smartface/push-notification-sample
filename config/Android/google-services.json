@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708064890221",
+    "project_id": "push-sample-smartface",
+    "storage_bucket": "push-sample-smartface.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708064890221:android:b7aa27821f0b51e1231e64",
+        "android_client_info": {
+          "package_name": "io.smartface.push.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708064890221-c0l8dpsvhmjpusrm3iqgmd1hvt9ak0ti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB37vECzmvTp_uL7PqGw6hvt6SVzWLz0KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708064890221-c0l8dpsvhmjpusrm3iqgmd1hvt9ak0ti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
