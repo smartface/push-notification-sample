@@ -5,7 +5,6 @@
 .tmp/*
 .templates/*
 output/*
-plugins/*
 images/automated/*.png
 !output/Android/README.md
 !output/iOS/README.md
