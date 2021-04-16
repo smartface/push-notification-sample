@@ -20,7 +20,7 @@ Notifications.registerForPushNotifications(
             alert("Firebase Token : " + JSON.stringify(e, null, '\t'));
         })
         //@ts-ignore
-        alert("FCM Token : " + JSON.stringify(Firebase.messaging.ios.native.FCMToken, null, '\t'))
+        alert("FCM Token : " + JSON.stringify(Firebase.messaging.ios.native.FCMToken(), null, '\t'))
         alert("Successfully registered. The token is: " + e.token);
     },
     (): void => {
