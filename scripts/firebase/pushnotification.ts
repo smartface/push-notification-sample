@@ -15,6 +15,7 @@ Firebase.messaging.subscribeToTopic("all"); //this triggers register for notific
 Notifications.registerForPushNotifications(
     //@ts-ignore
     (e: { token: string }): void => {
+        alert("Firebase Token : " + Firebase.messaging.getToken());
         alert("Successfully registered. The token is: " + e.token);
     },
     (): void => {
