@@ -33,3 +33,5 @@ if (Firebase.apps().length === 0) {
     Firebase.initializeApp(config);
     Fabric.with([new Crashlytics(), new Answers()]);
 }
+
+import './pushnotification';
