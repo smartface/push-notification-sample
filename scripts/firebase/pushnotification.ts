@@ -15,7 +15,12 @@ Firebase.messaging.subscribeToTopic("all"); //this triggers register for notific
 Notifications.registerForPushNotifications(
     //@ts-ignore
     (e: { token: string }): void => {
-        alert("Firebase Token : " + Firebase.messaging.getToken());
+        //@ts-ignore
+        Firebase.messaging.getToken((e) => {
+            alert("Firebase Token : " + JSON.stringify(e, null, '\t'));
+        })
+        //@ts-ignore
+        alert("FCM Token : " + JSON.stringify(Firebase.messaging.ios.native.FCMToken, null, '\t'))
         alert("Successfully registered. The token is: " + e.token);
     },
     (): void => {
