@@ -1,7 +1,4 @@
 import Page1Design from 'generated/pages/page1';
-import componentContextPatch from "@smartface/contx/lib/smartface/componentContextPatch";
-import PageTitleLayout from "components/PageTitleLayout";
-import System from "sf-core/device/system";
 
 export default class Page1 extends Page1Design {
     router: any;
