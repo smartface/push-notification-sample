@@ -11,6 +11,7 @@
 					"f0af-f993-8292-39f0",
 					"8dc6-e3c3-9ee4-4a54",
 					"d68c-1243-8972-7e2b",
+					"a7f0-ed84-76e7-5360",
 					"9414-33e6-71a9-a338"
 				],
 				"name": "page1",
@@ -74,11 +75,19 @@
 				"text": "Firebase Token : ",
 				"usePageVariable": true
 			},
-			"type": "Label",
+			"type": "TextView",
 			"userProps": {
 				"flexProps": {
 					"flexGrow": 1
 				},
+				"font": {
+					"size": 14,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"maxLines": 0,
 				"testId": "NPX6YiSY8",
 				"text": "Firebase Token : ",
 				"usePageVariable": true
@@ -94,14 +103,39 @@
 				"text": "Fcm Token",
 				"usePageVariable": true
 			},
-			"type": "Label",
+			"type": "TextView",
 			"userProps": {
 				"flexProps": {
 					"flexGrow": 1
 				},
+				"font": {
+					"size": 14,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"height": null,
+				"maxLines": 0,
 				"testId": "Loy6xvE_c",
 				"text": "Fcm Token",
 				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "a7f0-ed84-76e7-5360",
+			"props": {
+				"children": [],
+				"name": "lblShareInfo",
+				"parent": "7216-eb20-9a4e-64de",
+				"text": "Tap on labels to Share them"
+			},
+			"type": "Label",
+			"userProps": {
+				"testId": "Zv8e3Kid7",
+				"text": "Tap on labels to Share them",
+				"textAlignment": "MIDCENTER"
 			}
 		},
 		{

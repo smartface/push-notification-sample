@@ -1,4 +1,5 @@
 import Page1Design from 'generated/pages/page1';
+import Share from 'sf-core/global/share';
 
 import * as PushNotification from 'firebase/pushnotification';
 
@@ -12,8 +13,20 @@ export default class Page1 extends Page1Design {
 	}
 
 	initLabels() {
-		this.lblFcmToken.text = `Fcm Token : ${PushNotification.getFcmToken()}`;
-		this.lblFirebaseToken.text = `Firebase Token : ${PushNotification.getFirebaseToken()}`;
+		const fcmToken = PushNotification.getFcmToken();
+		const firebaseToken = PushNotification.getFirebaseToken();
+		this.lblFcmToken.onTouchEnded = () => Share.share({
+			page: this,
+			items: [fcmToken],
+			blacklist: []
+		});
+		this.lblFirebaseToken.onTouchEnded = () => Share.share({
+			page: this,
+			items: [firebaseToken],
+			blacklist: []
+		});
+		this.lblFcmToken.text = `Fcm Token : ${fcmToken}`;
+		this.lblFirebaseToken.text = `Firebase Token : ${firebaseToken}`;
 	}
 }
 
