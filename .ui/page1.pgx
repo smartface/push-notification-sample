@@ -9,7 +9,6 @@
 					"1b35-7e7f-72c3-2113",
 					"d5c3-9f19-e848-8e5e",
 					"f0af-f993-8292-39f0",
-					"8dc6-e3c3-9ee4-4a54",
 					"d68c-1243-8972-7e2b",
 					"a7f0-ed84-76e7-5360",
 					"9414-33e6-71a9-a338"
@@ -62,34 +61,6 @@
 			"userProps": {
 				"testId": "BBKNZ6nI8",
 				"text": "Get Tokens",
-				"usePageVariable": true
-			}
-		},
-		{
-			"className": ".sf-label",
-			"id": "8dc6-e3c3-9ee4-4a54",
-			"props": {
-				"children": [],
-				"name": "lblFirebaseToken",
-				"parent": "7216-eb20-9a4e-64de",
-				"text": "Firebase Token : ",
-				"usePageVariable": true
-			},
-			"type": "TextView",
-			"userProps": {
-				"flexProps": {
-					"flexGrow": 1
-				},
-				"font": {
-					"size": 14,
-					"bold": true,
-					"italic": false,
-					"family": "SFProText",
-					"style": "Semibold"
-				},
-				"maxLines": 0,
-				"testId": "NPX6YiSY8",
-				"text": "Firebase Token : ",
 				"usePageVariable": true
 			}
 		},

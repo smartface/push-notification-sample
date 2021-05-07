@@ -14,19 +14,12 @@ export default class Page1 extends Page1Design {
 
 	initLabels() {
 		const fcmToken = PushNotification.getFcmToken();
-		const firebaseToken = PushNotification.getFirebaseToken();
 		this.lblFcmToken.onTouchEnded = () => Share.share({
 			page: this,
 			items: [fcmToken],
 			blacklist: []
 		});
-		this.lblFirebaseToken.onTouchEnded = () => Share.share({
-			page: this,
-			items: [firebaseToken],
-			blacklist: []
-		});
-		this.lblFcmToken.text = `Fcm Token : ${fcmToken}`;
-		this.lblFirebaseToken.text = `Firebase Token : ${firebaseToken}`;
+		this.lblFcmToken.text = `Fcm or Firebase Token : ${fcmToken}`;
 	}
 }
 

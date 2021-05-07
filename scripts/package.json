@@ -9,7 +9,7 @@
         "materialtextbox": "^4.0.22",
         "sf-core": "^4.3.1",
         "sf-extension-utils": "^14.9.3",
-        "sf-plugin-firebase": "^4.0.5",
+        "sf-plugin-firebase": "^4.0.6",
         "source-map": "0.6.1"
     }
 }
