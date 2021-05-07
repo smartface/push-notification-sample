@@ -1,96 +1,124 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "7216-eb20-9a4e-64de",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "7216-eb20-9a4e-64de",
+			"initialized": true,
 			"props": {
-				"name": "page1",
-				"parent": null,
 				"children": [
 					"1b35-7e7f-72c3-2113",
-					"d5c3-9f19-e848-8e5e"
+					"d5c3-9f19-e848-8e5e",
+					"f0af-f993-8292-39f0",
+					"8dc6-e3c3-9ee4-4a54",
+					"d68c-1243-8972-7e2b",
+					"9414-33e6-71a9-a338"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "1b35-7e7f-72c3-2113",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "7216-eb20-9a4e-64de",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "d5c3-9f19-e848-8e5e",
-			"userProps": {
-				"title": "page1"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "7216-eb20-9a4e-64de",
-				"children": [],
-				"title": "page1",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"a4a4-660b-2175-5f0f": {
-			"type": "Page",
-			"id": "7216-eb20-9a4e-64de",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "page1",
-				"parent": null,
-				"children": [
-					"1b35-7e7f-72c3-2113",
-					"d5c3-9f19-e848-8e5e"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"initialized": false
+			"type": "Page",
+			"userProps": {}
 		},
-		"6d02-6207-bc8d-9f2f": {
-			"type": "StatusBar",
-			"id": "1b35-7e7f-72c3-2113",
-			"userProps": {},
+		{
 			"className": ".sf-statusBar",
+			"id": "1b35-7e7f-72c3-2113",
 			"props": {
-				"name": "statusBar",
-				"parent": "7216-eb20-9a4e-64de",
 				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		"1829-57e2-8b97-8bf6": {
-			"type": "HeaderBar",
-			"id": "d5c3-9f19-e848-8e5e",
-			"userProps": {
-				"title": "page1"
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "7216-eb20-9a4e-64de"
 			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
 			"className": ".sf-headerBar",
+			"id": "d5c3-9f19-e848-8e5e",
 			"props": {
+				"children": [],
+				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "7216-eb20-9a4e-64de",
+				"title": "page1"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "page1"
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "f0af-f993-8292-39f0",
+			"props": {
 				"children": [],
-				"title": "page1",
-				"visible": true,
-				"isRemovable": false
+				"name": "btnGetTokens",
+				"parent": "7216-eb20-9a4e-64de",
+				"text": "Get Tokens",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"testId": "BBKNZ6nI8",
+				"text": "Get Tokens",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "8dc6-e3c3-9ee4-4a54",
+			"props": {
+				"children": [],
+				"name": "lblFirebaseToken",
+				"parent": "7216-eb20-9a4e-64de",
+				"text": "Firebase Token : ",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"testId": "NPX6YiSY8",
+				"text": "Firebase Token : ",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "d68c-1243-8972-7e2b",
+			"props": {
+				"children": [],
+				"name": "lblFcmToken",
+				"parent": "7216-eb20-9a4e-64de",
+				"text": "Fcm Token",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"testId": "Loy6xvE_c",
+				"text": "Fcm Token",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "9414-33e6-71a9-a338",
+			"props": {
+				"children": [],
+				"name": "flexLayout1",
+				"parent": "7216-eb20-9a4e-64de"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 2
+				},
+				"testId": "bst6Kb2cX"
 			}
 		}
-	}
+	]
 }
