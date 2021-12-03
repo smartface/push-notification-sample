@@ -49,7 +49,7 @@
   dependencies:
     events "^3.3.0"
 
-"@smartface/plugin-firebase@^7.0.0-rc.35":
+"@smartface/plugin-firebase@^7.0.0-rc.34":
   version "7.0.0-rc.35"
   resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.0.0-rc.35.tgz#8f70dd660627571de7295d6606907e687fb4590e"
   integrity sha512-CSnIGnPquVLuLSGHb4ut5Rwdj/JIcIuv41Al6FpKcgxQVec+grYimQhPI4S7iYbc4/1/YPJ2LMFOldS/cee0BA==
