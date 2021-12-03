@@ -4,7 +4,7 @@ import {
     NativeStackRouter as StackRouter,
     Route
 } from "@smartface/router";
-import "sf-extension-utils/lib/router/goBack"; // Implements onBackButtonPressed
+import "@smartface/extension-utils/lib/router/goBack"; // Implements onBackButtonPressed
 
 const router = Router.of({
     path: "/",

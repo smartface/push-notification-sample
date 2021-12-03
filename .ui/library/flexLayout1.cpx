@@ -1,0 +1,20 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"id": "5502-e1f1-8317-f087",
+			"props": {
+				"children": [],
+				"name": "flexLayout1",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"testId": "SzSRoz-jN"
+			}
+		}
+	]
+}

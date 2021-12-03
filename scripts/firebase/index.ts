@@ -1,7 +1,6 @@
 import System from '@smartface/native/device/system';
 import File from '@smartface/native/io/file';
 import Firebase, {  Crashlytics } from '@smartface/plugin-firebase';
-import Auth from '@smartface/plugin-firebase/lib/Auth/auth-Android';
 const config = System.OS === "iOS" && {
     iosFile: new File({
         path: 'assets://GoogleService-Info.plist'
@@ -24,7 +23,6 @@ if (System.OS === 'iOS') {
     });
     Invocation.invokeInstanceMethod(global.__SF_UIPasteboard.generalPasteboard(), "setValue:forPasteboardType:", [arg1, arg2]);
 }
-
 if (Firebase.apps().length === 0) {
     const firebaseApp = Firebase.initializeApp(config);
     const auth = firebaseApp.auth();
