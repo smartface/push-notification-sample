@@ -1,6 +1,6 @@
-import Application from "sf-core/application";
-import Firebase from 'sf-plugin-firebase';
-import Notifications from 'sf-core/global/notifications';
+import Application from "@smartface/native/application";
+import Firebase from '@smartface/plugin-firebase';
+import Notifications from '@smartface/native/global/notifications';
 
 let fcmToken = '';
 

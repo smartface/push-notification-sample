@@ -24,10 +24,8 @@
     },
     "files": [
         "./typings.d.ts",
-        "./scripts/node_modules/sf-core/index.d.ts",
-        "./scripts/node_modules/sf-core/.types/typings.d.ts",
-        "./scripts/node_modules/@smartface/contx/index.d.ts",
-        "./scripts/node_modules/@smartface/styler/index.d.ts"
+        "./scripts/node_modules/@smartface/native/.types/typings.d.ts",
+        "./scripts/node_modules/@smartface/contx/index.d.ts"
     ],
     "exclude": [
         "node_modules",

@@ -1,4 +1,4 @@
-import buildExtender from "sf-extension-utils/lib/router/buildExtender";
+import buildExtender from "@smartface/extension-utils/lib/router/buildExtender";
 import {
     NativeRouter as Router,
     NativeStackRouter as StackRouter,

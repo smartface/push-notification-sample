@@ -1,5 +1,5 @@
 import Page1Design from 'generated/pages/page1';
-import Share from 'sf-core/global/share';
+import Share from '@smartface/native/global/share';
 
 import * as PushNotification from 'firebase/pushnotification';
 
