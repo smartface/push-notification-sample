@@ -49,10 +49,10 @@
   dependencies:
     events "^3.3.0"
 
-"@smartface/plugin-firebase@^7.0.0-rc.30":
-  version "7.0.0-rc.30"
-  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.0.0-rc.30.tgz#e57f2c1a3abb6a195295da7759686fdb62144483"
-  integrity sha512-ai6D97MWTSUM2FD2l2+fUkudv+KyU+UuAYQ/WeaneBbNRJxj0qUpJYF+5TxA/NJ+Cs7pk0ULKcUJs021fBqi0Q==
+"@smartface/plugin-firebase@^7.0.0-rc.32":
+  version "7.0.0-rc.32"
+  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.0.0-rc.32.tgz#8c0f743e5747015045c724006d629e33d56687ca"
+  integrity sha512-Sjfm5J6yElvkFBbiWoG2/wz1szCD8mwlD7GazsFUW6Q6VS3vOL8k7Ag0K2GUg432IfI5MtQP78w9oKBb07msQw==
 
 "@smartface/router@2.0.0":
   version "2.0.0"
