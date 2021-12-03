@@ -1,7 +1,9 @@
-dependencies {
-implementation project(":firebaseplugin")
-}
 apply plugin:  'com.google.firebase.crashlytics'
 apply plugin:  'com.google.gms.google-services'
 apply plugin:  'com.google.firebase.firebase-perf' //(Optional)
+
+dependencies {
+    implementation project(":firebaseplugin")
+}
+
 googleServices.disableVersionCheck = true
