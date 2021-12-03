@@ -24,11 +24,12 @@ if (System.OS === 'iOS') {
     Invocation.invokeInstanceMethod(global.__SF_UIPasteboard.generalPasteboard(), "setValue:forPasteboardType:", [arg1, arg2]);
 }
 if (Firebase.apps().length === 0) {
-    const firebaseApp = Firebase.initializeApp(config);
-    const auth = firebaseApp.auth();
-    auth.createUserWithEmailAndPassword('test@testmail.com', 'testPass123!.', () => {} );
-    const user = auth.getCurrentUser();
-    console.log('User\'s Email', user.getEmail());
+    Firebase.initializeApp(config);
+    // const firebaseApp = Firebase.initializeApp(config);
+    // const auth = firebaseApp.auth();
+    // auth.createUserWithEmailAndPassword('test@testmail.com', 'testPass123!.', () => {} );
+    // const user = auth.getCurrentUser();
+    // console.log('User\'s Email', user.getEmail());
     Crashlytics.ios.with([new Crashlytics()]);
 }
 
