@@ -27,6 +27,13 @@ const router = Router.of({
                         headerBarStyle: { visible: true } 
                     })
                 }),
+                Route.of({
+                    path: "/pages/crashlytics",
+                    build: buildExtender({ 
+                        getPageClass: () => require("pages/pageCrashlytics").default, 
+                        headerBarStyle: { visible: true } 
+                    })
+                })
             ]
         })
     ]

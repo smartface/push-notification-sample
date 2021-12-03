@@ -17,7 +17,7 @@ export default class PageCrashlytics extends PageCrashlyticsDesign {
         Crashlytics.setInt('Crashlytics-setIntTest', 5);
         setTimeout(() => Analytics.setCurrentScreen('pageCrashlytics', null), 5);
         const customAttribute = new Firebase.analytics.CustomAttribute('newCustomKey', 'testAnalyticsCustomAttribute')
-        setTimeout(() => Firebase.analytics.logEvent('asd', customAttribute), 5);
+        setTimeout(() => Firebase.analytics.logEvent('testLogEvent', customAttribute), 5);
     }
 }
 

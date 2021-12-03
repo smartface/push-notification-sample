@@ -10,6 +10,7 @@ export default class Page1 extends Page1Design {
 		this.onShow = onShow.bind(this, this.onShow.bind(this));
 		this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
 		this.btnGetTokens.onPress = () => this.initLabels();
+        this.btnGoCrashlytics.onPress = () => this.router.push('crashlytics')
 	}
 
 	initLabels() {
