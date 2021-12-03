@@ -1,9 +1,7 @@
 dependencies {
 implementation project(":firebaseplugin")
 }
+apply plugin:  'com.google.firebase.crashlytics'
 apply plugin:  'com.google.gms.google-services'
-apply plugin: 'io.fabric'  
-crashlytics {  
-    enableNdk=true  
-}
-ext.enableCrashlytics = false
+apply plugin:  'com.google.firebase.firebase-perf' //(Optional)
+googleServices.disableVersionCheck = true
