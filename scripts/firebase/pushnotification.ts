@@ -1,4 +1,3 @@
-import Application from "@smartface/native/application";
 import Firebase from '@smartface/plugin-firebase';
 import Notifications from '@smartface/native/global/notifications';
 

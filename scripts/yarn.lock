@@ -42,17 +42,17 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/native@^4.3.6-beta.3":
-  version "4.3.6-beta.3"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.3.6-beta.3.tgz#cc63adfc38c003388efcedeec453781f86668ede"
-  integrity sha512-h6zKovGJZY862x5sJ01NB5vKiduX3DU/CrKSLLGIW5kcKqZysqk5WfrPXqitIUjDE9v9UQoQeMJryMCZnMu9sw==
+"@smartface/native@^4.3.5":
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.3.5.tgz#820a405f3df32c8e099a1a1658bc57673e053c1e"
+  integrity sha512-/mgbbu/tPbbEmPlsVWsDOAgfdDkAt3PIZmINvwFXeX1A4DeEahtCzjcMWNUaCZZTtcrHtRfCPWzTZuRcjIkZCg==
   dependencies:
     events "^3.3.0"
 
-"@smartface/plugin-firebase@^7.0.0-rc.36":
-  version "7.0.0-rc.36"
-  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.0.0-rc.36.tgz#48eee2bbf255201840e15ea59e02bb3b45c8853d"
-  integrity sha512-SVTtk5Cn+ZyzTanX0A9dCjYG6N9deSYR8yxDnFDVjIPBUCsEkGGXJEmHaKoN/q5hsm6PKgNqeQZsXkROucYf2A==
+"@smartface/plugin-firebase@^7.0.0-rc.37":
+  version "7.0.0-rc.37"
+  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.0.0-rc.37.tgz#558a11418a071daf45db99ab4d832978e9e66810"
+  integrity sha512-Zk63EclRlRCWV376yGaWi+EK9gXr+qNfIOPdmmj8YIAUHf+2ZdiERnazgQD0u/a0pj7hDeBKfD4bSlOsdPN8EQ==
 
 "@smartface/router@2.0.0":
   version "2.0.0"

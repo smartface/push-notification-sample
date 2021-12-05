@@ -1,12 +1,11 @@
 import System from '@smartface/native/device/system';
 import File from '@smartface/native/io/file';
-import Firebase, {  Crashlytics } from '@smartface/plugin-firebase';
+import Firebase, { Crashlytics } from '@smartface/plugin-firebase';
 const config = System.OS === "iOS" && {
     iosFile: new File({
         path: 'assets://GoogleService-Info.plist'
     })
 };
-
 /**
  * WORKAROUND: SUPDEV-2372
  * Removes clipboard entry on first app open to prevent alert showing up
@@ -23,13 +22,14 @@ if (System.OS === 'iOS') {
     });
     Invocation.invokeInstanceMethod(global.__SF_UIPasteboard.generalPasteboard(), "setValue:forPasteboardType:", [arg1, arg2]);
 }
+
 if (Firebase.apps().length === 0) {
     Firebase.initializeApp(config);
-    // const firebaseApp = Firebase.initializeApp(config);
-    // const auth = firebaseApp.auth();
-    // auth.createUserWithEmailAndPassword('test@testmail.com', 'testPass123!.', () => {} );
-    // const user = auth.getCurrentUser();
-    // console.log('User\'s Email', user.getEmail());
+    const firebaseApp = Firebase.initializeApp(config);
+    const auth = firebaseApp.auth();
+    auth?.createUserWithEmailAndPassword('test@testmail.com', 'testPass123!.', () => {} );
+    const user = auth?.getCurrentUser();
+    console.log('User\'s Email', user?.getEmail());
     Crashlytics.ios.with([new Crashlytics()]);
 }
 

@@ -5,9 +5,9 @@
         "@smartface/router": "2.0.0",
         "@smartface/component-keyboardlayout": "^4.0.0",
         "@smartface/component-materialtextbox": "^6.0.1",
-        "@smartface/native": "^4.3.6-beta.3",
+        "@smartface/native": "^4.3.5",
         "@smartface/extension-utils": "^16.2.2",
-        "@smartface/plugin-firebase": "^7.0.0-rc.36",
+        "@smartface/plugin-firebase": "^7.0.0-rc.37",
         "source-map": "0.6.1"
     }
 }

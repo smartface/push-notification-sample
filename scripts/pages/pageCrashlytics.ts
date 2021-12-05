@@ -1,4 +1,4 @@
-import Firebase, { Analytics, Crashlytics, Auth } from '@smartface/plugin-firebase';
+import Firebase, { Analytics, Crashlytics } from '@smartface/plugin-firebase';
 import PageCrashlyticsDesign from 'generated/pages/pageCrashlytics';
 export default class PageCrashlytics extends PageCrashlyticsDesign {
 	constructor() {
@@ -10,7 +10,6 @@ export default class PageCrashlytics extends PageCrashlyticsDesign {
 	}
 
     InitCrashlytics() {
-        Crashlytics.setUserIdentifier("UserIdentifier");
         Crashlytics.setString('Crashlytics-setStringTest', 'TestValue1');
         Crashlytics.setBool('Crashlytics-setBoolTest', true);    
         Crashlytics.setFloat('Crashlytics-setFloatTest', 1.5);    
