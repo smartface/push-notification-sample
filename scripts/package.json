@@ -7,7 +7,7 @@
         "@smartface/component-materialtextbox": "^6.0.1",
         "@smartface/native": "^4.3.5",
         "@smartface/extension-utils": "^16.2.2",
-        "@smartface/plugin-firebase": "^7.0.0-rc.37",
+        "@smartface/plugin-firebase": "^7.0.0-rc.38",
         "source-map": "0.6.1"
     }
 }
