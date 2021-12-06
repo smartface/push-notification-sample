@@ -1,9 +1,10 @@
 import System from '@smartface/native/device/system';
 import File from '@smartface/native/io/file';
+import { AssetsUriScheme } from '@smartface/native/io/path';
 import Firebase, { Crashlytics } from '@smartface/plugin-firebase';
 const config = System.OS === System.OSType.IOS && {
     iosFile: new File({
-        path: 'assets://GoogleService-Info.plist'
+        path: `${AssetsUriScheme}GoogleService-Info.plist`
     })
 };
 /**
@@ -22,7 +23,6 @@ if (System.OS === 'iOS') {
     });
     Invocation.invokeInstanceMethod(global.__SF_UIPasteboard.generalPasteboard(), "setValue:forPasteboardType:", [arg1, arg2]);
 }
-
 if (Firebase.apps().length === 0) {
     Firebase.initializeApp(config);
     // const firebaseApp = Firebase.initializeApp(config);
