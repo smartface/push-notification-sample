@@ -1,7 +1,7 @@
 import System from '@smartface/native/device/system';
 import File from '@smartface/native/io/file';
 import Firebase, { Crashlytics } from '@smartface/plugin-firebase';
-const config = System.OS === "iOS" && {
+const config = System.OS === System.OSType.IOS && {
     iosFile: new File({
         path: 'assets://GoogleService-Info.plist'
     })
