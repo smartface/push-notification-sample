@@ -25,11 +25,11 @@ if (System.OS === 'iOS') {
 
 if (Firebase.apps().length === 0) {
     Firebase.initializeApp(config);
-    const firebaseApp = Firebase.initializeApp(config);
-    const auth = firebaseApp.auth();
-    auth?.createUserWithEmailAndPassword('test@testmail.com', 'testPass123!.', () => {} );
-    const user = auth?.getCurrentUser();
-    console.log('User\'s Email', user?.getEmail());
+    // const firebaseApp = Firebase.initializeApp(config);
+    // const auth = firebaseApp.auth();
+    // auth?.createUserWithEmailAndPassword('test@testmail.com', 'testPass123!.', () => {} );
+    // const user = auth?.getCurrentUser();
+    // console.log('User\'s Email', user?.getEmail());
     Crashlytics.ios.with([new Crashlytics()]);
 }
 
