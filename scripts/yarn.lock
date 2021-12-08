@@ -49,10 +49,10 @@
   dependencies:
     events "^3.3.0"
 
-"@smartface/plugin-firebase@^7.0.0-rc.48":
-  version "7.0.0-rc.48"
-  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.0.0-rc.48.tgz#f4c33767c3f7aad318b5548eb11a55822beb00f3"
-  integrity sha512-uMyHM8K1ujsdkl7YUNNHX9xouezphZ+P9CIwULimdSnaAReRZVYBfuqpam3d0vQGiu74Kq9/LWqa2ixqUDx/IA==
+"@smartface/plugin-firebase@^7.0.0-rc.49":
+  version "7.0.0-rc.49"
+  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.0.0-rc.49.tgz#b85bc40629c1eca834a0c0fff7ba42ef6d342af8"
+  integrity sha512-k4QexyouweIfmTqZvNJKg52OmjN50eB7ktlW5yeBZ0nBhj5SIghOqwvlq2soZ0TV04z+B/nOihjdN4g8xu7zzw==
 
 "@smartface/router@2.0.0":
   version "2.0.0"
@@ -68,9 +68,9 @@
   integrity sha512-XLgoSUdXM8l0xHFIHV85ZEwzlYl07be2qi+Ca9p3lU1oE8STetxLFR3z7LD8eIq5Wp0Vzoh9xDsGdu0gTwo/dw==
 
 apexcharts@^3.26.3:
-  version "3.31.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/apexcharts/-/apexcharts-3.31.0.tgz#896d8bc1c9a8bc5dcbc8adc444b070d36dd88386"
-  integrity sha512-Ba3yl1cUW241+ogFnKD+TXU0pHCor0WsjloAAuOq4SWF99Xjny+MRlKJmPWwpJH4cGuncZ4aJVk3zMsKKcApGA==
+  version "3.32.0"
+  resolved "https://cd.smartface.io/repository/npm-all-public/apexcharts/-/apexcharts-3.32.0.tgz#97e3f916af1c3c0109bc8c88f95b68dfe99c294a"
+  integrity sha512-9VUyiTR2RgD4NIJOOdKxxi8tjzrKCBMr7HjWxsw+5lDPu/tZJLVudpgFhlNTIy3CbhxQ4edaiTttmbo6eDDgiA==
   dependencies:
     svg.draggable.js "^2.2.2"
     svg.easing.js "^2.0.0"
