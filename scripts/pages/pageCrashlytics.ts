@@ -10,13 +10,15 @@ export default class PageCrashlytics extends PageCrashlyticsDesign {
 	}
 
     InitCrashlytics() {
-        Crashlytics.setString('Crashlytics-setStringTest', 'TestValue1');
-        Crashlytics.setBool('Crashlytics-setBoolTest', true);    
-        Crashlytics.setFloat('Crashlytics-setFloatTest', 1.5);    
-        Crashlytics.setInt('Crashlytics-setIntTest', 5);
         setTimeout(() => Analytics.setCurrentScreen('pageCrashlytics', null), 5);
         const customAttribute = new Firebase.analytics.CustomAttribute('newCustomKey', 'testAnalyticsCustomAttribute')
         setTimeout(() => Firebase.analytics.logEvent('testLogEvent', customAttribute), 5);
+        const err = new Error('Test Error Message');
+        const stackTrace = err.stack;
+        delete err.stack; // Don't show those in direct logs
+        stackTrace && Crashlytics.setString('Stack trace' , stackTrace);
+        const stringError = typeof err === "object" ? JSON.stringify(err, null, '\t') : err;
+        Crashlytics.logError({error: stringError, identifier: 'Exception'});
     }
 }
 
