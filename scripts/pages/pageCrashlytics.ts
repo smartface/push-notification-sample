@@ -1,12 +1,11 @@
 import Firebase, { Analytics, Crashlytics } from '@smartface/plugin-firebase';
 import PageCrashlyticsDesign from 'generated/pages/pageCrashlytics';
-export default class PageCrashlytics extends PageCrashlyticsDesign {
-	constructor() {
-		super();
-		// Overrides super.onShow method
-		this.onShow = onShow.bind(this, this.onShow.bind(this));
-		// Overrides super.onLoad method
-		this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
+import { Route, Router } from '@smartface/router';
+import { withDismissAndBackButton } from '@smartface/mixins'
+
+export default class PageCrashlytics extends withDismissAndBackButton(PageCrashlyticsDesign) {
+	constructor(private router?: Router, private route?: Route) {
+		super({});
 	}
 
     InitCrashlytics() {
@@ -20,24 +19,15 @@ export default class PageCrashlytics extends PageCrashlyticsDesign {
         const stringError = typeof err === "object" ? JSON.stringify(err, null, '\t') : err;
         Crashlytics.logError({error: stringError, identifier: 'Exception'});
     }
-}
 
-/**
- * @event onShow
- * This event is called when a page appears on the screen (everytime).
- * @param {function} superOnShow super onShow function
- * @param {Object} parameters passed from Router.go function
- */
-function onShow(this: PageCrashlytics, superOnShow: () => void) {
-	superOnShow();
-    this.InitCrashlytics();
-}
+    onShow() {
+        super.onShow();
+        this.initBackButton(this.router)
+        this.InitCrashlytics();
+    }
 
-/**
- * @event onLoad
- * This event is called once when page is created.
- * @param {function} superOnLoad super onLoad function
- */
-function onLoad(this: PageCrashlytics, superOnLoad: () => void) {
-	superOnLoad();
+    onLoad() {
+        super.onLoad();
+    }
+    
 }
