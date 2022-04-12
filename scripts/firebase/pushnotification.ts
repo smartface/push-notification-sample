@@ -1,6 +1,5 @@
-import Application from "sf-core/application";
-import Firebase from 'sf-plugin-firebase';
-import Notifications from 'sf-core/global/notifications';
+import Firebase from '@smartface/plugin-firebase';
+import Notifications from '@smartface/native/global/notifications';
 
 let fcmToken = '';
 
@@ -22,14 +21,15 @@ Firebase.messaging.subscribeToTopic("all"); //this triggers register for notific
 
 Firebase.messaging.getToken((e) => {
 	alert("FCM Token : " + JSON.stringify(e, null, '\t'));
-	fcmToken = e;
+	// fcmToken = e;
 })
 
-// Notifications.registerForPushNotifications(
-// 	//@ts-ignore
-// 	(e: { token: string }): void => {
-// 		alert("Successfully registered. The token is: " + e.token);
-// 	},
-// 	(): void => {
-// 		alert("Register failed.");
-// 	});
+Notifications.registerForPushNotifications(
+	//@ts-ignore
+	(e: { token: string }): void => {
+		alert("Successfully registered. The token is: " + e.token);
+        fcmToken = e.token;
+	},
+	(): void => {
+		alert("Register failed.");
+	});

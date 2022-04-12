@@ -1,12 +1,12 @@
 /* globals lang */
-import "i18n/i18n"; // Generates global lang object
-import Application from "sf-core/application";
-import { errorStackBySourceMap } from "error-by-sourcemap";
-import System from "sf-core/device/system";
-import "theme";
-import "sf-extension-utils";
-import router from "routes";
-import 'firebase';
+import 'i18n/i18n'; // Generates global lang object
+import Application from '@smartface/native/application';
+import { errorStackBySourceMap } from 'error-by-sourcemap';
+import System from '@smartface/native/device/system';
+import '@smartface/extension-utils';
+import 'theme';
+import router from 'routes';
+import './firebase'
 
 // Set uncaught exception handler, all exceptions that are not caught will
 // trigger onUnhandledError callback.

@@ -9,6 +9,7 @@
 					"1b35-7e7f-72c3-2113",
 					"d5c3-9f19-e848-8e5e",
 					"f0af-f993-8292-39f0",
+					"65e4-4cb5-36b2-3496",
 					"d68c-1243-8972-7e2b",
 					"a7f0-ed84-76e7-5360",
 					"9414-33e6-71a9-a338"
@@ -61,6 +62,23 @@
 			"userProps": {
 				"testId": "BBKNZ6nI8",
 				"text": "Get Tokens",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "65e4-4cb5-36b2-3496",
+			"props": {
+				"children": [],
+				"name": "btnGoCrashlytics",
+				"parent": "7216-eb20-9a4e-64de",
+				"text": "Go Crashlytics",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"testId": "BBKNZ6nI8",
+				"text": "Go Crashlytics",
 				"usePageVariable": true
 			}
 		},

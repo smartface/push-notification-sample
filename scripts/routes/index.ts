@@ -1,10 +1,10 @@
-import buildExtender from "sf-extension-utils/lib/router/buildExtender";
+import buildExtender from "@smartface/extension-utils/lib/router/buildExtender";
 import {
     NativeRouter as Router,
     NativeStackRouter as StackRouter,
     Route
 } from "@smartface/router";
-import "sf-extension-utils/lib/router/goBack"; // Implements onBackButtonPressed
+import "@smartface/extension-utils/lib/router/goBack"; // Implements onBackButtonPressed
 
 const router = Router.of({
     path: "/",
@@ -27,6 +27,13 @@ const router = Router.of({
                         headerBarStyle: { visible: true } 
                     })
                 }),
+                Route.of({
+                    path: "/pages/crashlytics",
+                    build: buildExtender({ 
+                        getPageClass: () => require("pages/pageCrashlytics").default, 
+                        headerBarStyle: { visible: true } 
+                    })
+                })
             ]
         })
     ]

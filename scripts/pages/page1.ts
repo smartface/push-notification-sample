@@ -1,5 +1,5 @@
 import Page1Design from 'generated/pages/page1';
-import Share from 'sf-core/global/share';
+import Share from '@smartface/native/global/share';
 
 import * as PushNotification from 'firebase/pushnotification';
 
@@ -10,6 +10,7 @@ export default class Page1 extends Page1Design {
 		this.onShow = onShow.bind(this, this.onShow.bind(this));
 		this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
 		this.btnGetTokens.onPress = () => this.initLabels();
+        this.btnGoCrashlytics.onPress = () => this.router.push('crashlytics')
 	}
 
 	initLabels() {

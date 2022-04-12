@@ -34,7 +34,7 @@
 		<key>CFBundleIconFiles</key>
 		<array/>
 		<key>CFBundleIdentifier</key>
-		<string>io.Smartface.Smartface-Demo</string>
+		<string>io.smartface.push.sample</string>
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
