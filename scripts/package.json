@@ -1,12 +1,12 @@
 {
     "dependencies": {
-        "@smartface/component-keyboardlayout": "^4.0.0",
-        "@smartface/component-materialtextbox": "^6.0.1",
-        "@smartface/contx": "^4.0.0",
-        "@smartface/extension-utils": "^16.2.2",
+        "@smartface/component-keyboardlayout": "4.0.0",
+        "@smartface/component-materialtextbox": "6.0.4",
+        "@smartface/contx": "4.0.0",
+        "@smartface/extension-utils": "16.2.7",
         "@smartface/html-to-text": "^1.1.1",
-        "@smartface/native": "^4.3.5",
-        "@smartface/plugin-firebase": "^7.0.3",
+        "@smartface/native": "4.3.6-beta.11",
+        "@smartface/plugin-firebase": "7.0.4",
         "@smartface/router": "2.0.0",
         "source-map": "0.6.1"
     }

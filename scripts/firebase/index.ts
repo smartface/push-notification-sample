@@ -11,7 +11,7 @@ const config = System.OS === System.OSType.IOS && {
  * WORKAROUND: SUPDEV-2372
  * Removes clipboard entry on first app open to prevent alert showing up
  */
-if (System.OS === 'iOS') {
+if (System.OS === System.OSType.IOS) {
     const Invocation = require('@smartface/native/util/iOS/invocation.js');
     const arg1 = new Invocation.Argument({
         type: "NSString",
