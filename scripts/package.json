@@ -5,7 +5,7 @@
     "@smartface/extension-utils": "^16.2.9",
     "@smartface/mixins": "^5.0.0-alpha.0",
     "@smartface/native": "^5.0.0-alpha",
-    "@smartface/plugin-firebase": "^7.1.0",
+    "@smartface/plugin-firebase": "7.1.1",
     "@smartface/router": "^2.3.1",
     "@smartface/source-map": "^5.0.0-alpha",
     "@smartface/styling-context": "5.0.0-alpha.7"

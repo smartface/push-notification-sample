@@ -13,9 +13,9 @@
   integrity sha512-w3Nu+9Oqy/leGqIdzoXPp3pq/3HwXgivCSgKbXdYcStMwOBUKO8d/potZYbSV9bss2TKCwXU2C0V3QGdSyxwjQ==
 
 "@smartface/contx@^4.2.0":
-  version "4.2.6"
-  resolved "https://registry.yarnpkg.com/@smartface/contx/-/contx-4.2.6.tgz#21aaf510a467385fb93bde8d2797ffd57fc1a958"
-  integrity sha512-PgYkQ0Adondep2gk9VPzAPWEq6FesXmqExcTC7F1oMHQh7fPC3smebeF7iWx9ZtjHpujiQ9TWuhpTtnCjM1kUg==
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/@smartface/contx/-/contx-4.2.8.tgz#16ddbaa8f9aa56d27a8427b9f97d455648a7671a"
+  integrity sha512-zj0h2L7UPiPHaYj/j7tk8dAQM2D6WE+726zDFvin+pCkHxbeYxXdlwGUEoXCVF4wktPlQ9L/G6SdBCf5C9kYPA==
   dependencies:
     "@smartface/html-to-text" "^1.0.0"
     "@smartface/styler" "^2.0.0"
@@ -55,16 +55,16 @@
     "@smartface/core" "^5.0.0-alpha.0"
 
 "@smartface/native@^5.0.0-alpha":
-  version "5.0.0-alpha.58"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.0-alpha.58.tgz#7869b7f8f9c38861adceacfad8af597e9c8671c8"
-  integrity sha512-oawOzKCL0zJaoSo6p7vfF1EmAPqw7QXZmeRWZEngF0eiUt+n+S4YZjrS12rOCFu0xA0Ut2Or92RHErSJn5dxjw==
+  version "5.0.0-alpha.64"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.0-alpha.64.tgz#84d5816d1276857b077b46e4b95d93446b073736"
+  integrity sha512-sGBinEt9T0ngoVWXrN/73Ld8qTsb4McUw0xnXtHMDIAXP4C15QVeG6l0giXTTZSf1sii5ZCaog3WmLRVWDBPsg==
   dependencies:
     events "^3.3.0"
 
-"@smartface/plugin-firebase@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.1.0.tgz#ed9a5b71ff410a21b02f2c3f11ea8df3d512c4a5"
-  integrity sha512-g49E+U2EKuwIgRtxoFWQg2mOM0dKMUH3FKbVTLysfyFov4qtCJ7Rz0Lwte5syDtR42ijvgm9FilPcUjCIv4Xbw==
+"@smartface/plugin-firebase@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@smartface/plugin-firebase/-/plugin-firebase-7.1.1.tgz#7713e99625596ccd051b5e84cae0ef5167896ae2"
+  integrity sha512-KBuJTGHxmHi/953VRlK4Jd7yGiUn44d/0F1SlikeQRoIi5UdtvG3IixTa699bt+cA61OJqaIy9vve628imlwJA==
 
 "@smartface/router@^2.3.1":
   version "2.3.1"
@@ -95,9 +95,9 @@
     "@smartface/styler" "^2.0.0"
 
 apexcharts@^3.26.3:
-  version "3.35.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/apexcharts/-/apexcharts-3.35.0.tgz#5571f4852747359b7ef76662998f3d6a8ffe923a"
-  integrity sha512-oipJRkaxt8DPGRmn1kur6aPzML1JSpf2M3ecu+gyw+8xiNmT2C0p1uuuqPZrk+Lr2hmDxzNBPR7TvxwRl3ozgw==
+  version "3.35.2"
+  resolved "https://cd.smartface.io/repository/npm-all-public/apexcharts/-/apexcharts-3.35.2.tgz#90faafffa055ce502f73b11008ba77238e94228f"
+  integrity sha512-VOSb25mrcSv/JjaWKjnasL8277cqnA0Gp20uV1+rlgE4U6j44fdTYW850Powl+S8RkXd/lPwzBB2jvKkEOHl0Q==
   dependencies:
     svg.draggable.js "^2.2.2"
     svg.easing.js "^2.0.0"
