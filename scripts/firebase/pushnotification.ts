@@ -8,14 +8,15 @@ export function getFcmToken(): string {
 }
 
 Notifications.on("notificationReceive", (e) => {
-  const alertMessage = {
-    onNotificationReceive: e,
-  };
   alert(JSON.stringify(e, null, 4));
   return [
     Notifications.iOS.NotificationPresentationOptions.SOUND,
     Notifications.iOS.NotificationPresentationOptions.ALERT,
   ]; // or []
+});
+
+Notifications.on("notificationClick", (e) => {
+  alert(JSON.stringify(e, null, 4));
 });
 
 Firebase.messaging.subscribeToTopic("all"); //this triggers register for notifications

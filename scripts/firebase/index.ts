@@ -7,9 +7,8 @@ import Invocation from "@smartface/native/util/iOS/invocation.js";
 const config = System.OS === System.OSType.IOS && {
   iosFile: new File({
     path: `${Path.AssetsUriScheme}GoogleService-Info.plist`,
-  })
+  }),
 };
-
 
 /**
  * WORKAROUND: SUPDEV-2372
@@ -34,7 +33,6 @@ if (System.OS === "iOS") {
 }
 
 if (Firebase.apps().length === 0) {
-  Firebase.initializeApp(config);
   const firebaseApp = Firebase.initializeApp(config);
   const auth = firebaseApp.auth();
   auth?.createUserWithEmailAndPassword(

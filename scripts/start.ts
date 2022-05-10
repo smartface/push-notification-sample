@@ -1,4 +1,4 @@
-import '@smartface/extension-utils';
+import "@smartface/extension-utils";
 import "theme";
 import router from "routes";
 
