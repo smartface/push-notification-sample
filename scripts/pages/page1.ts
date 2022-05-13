@@ -20,8 +20,8 @@ export default class Page1 extends Page1Design {
   }
 
   initLabels() {
-    this.fcmToken = PushNotification.getFcmToken();
-    this.tvFcmToken.text = `Fcm or Firebase Token : ${this.fcmToken}`;
+    // this.fcmToken = PushNotification.getFcmToken();
+    // this.tvFcmToken.text = `Fcm or Firebase Token : ${this.fcmToken}`;
   }
 
   onShow() {
