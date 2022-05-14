@@ -17,6 +17,19 @@ Notifications.on("notificationReceive", (e) => {
   ]; // or []
 });
 
+Notifications.onNotificationClick = (e) => {
+  notificationClick = "not event emitter" + JSON.stringify(e);
+};
+
+//@ts-ignore
+Notifications.onNotificationReceive = (e) => {
+  notificationReceiveString = "not event emitter" + JSON.stringify(e);
+  return [
+    Notifications.iOS.NotificationPresentationOptions.SOUND,
+    Notifications.iOS.NotificationPresentationOptions.ALERT,
+  ];
+};
+
 Notifications.on("notificationClick", (e) => {
   notificationClick = JSON.stringify(e);
   alert(JSON.stringify(e, null, 4));
