@@ -17,6 +17,11 @@ export default class Page1 extends Page1Design {
         blacklist: [],
       })
     );
+    this.btnGetInfo.on("press", () => {
+      this.lblNotificationClick.text = PushNotification.notificationClick;
+      this.lblNotificationReceive.text =
+        PushNotification.notificationReceiveString;
+    });
   }
 
   initLabels() {

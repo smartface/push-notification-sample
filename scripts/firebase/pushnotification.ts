@@ -1,6 +1,7 @@
 import Firebase from "@smartface/plugin-firebase";
 import Notifications from "@smartface/native/global/notifications";
-
+export let notificationReceiveString = "EMPTY";
+export let notificationClick = "EMPTY";
 let fcmToken = "";
 
 export function getFcmToken(): string {
@@ -9,6 +10,7 @@ export function getFcmToken(): string {
 
 Notifications.on("notificationReceive", (e) => {
   alert(JSON.stringify(e, null, 4));
+  notificationReceiveString = JSON.stringify(e);
   return [
     Notifications.iOS.NotificationPresentationOptions.SOUND,
     Notifications.iOS.NotificationPresentationOptions.ALERT,
@@ -16,6 +18,7 @@ Notifications.on("notificationReceive", (e) => {
 });
 
 Notifications.on("notificationClick", (e) => {
+  notificationClick = JSON.stringify(e);
   alert(JSON.stringify(e, null, 4));
 });
 
