@@ -21,7 +21,6 @@ Notifications.onNotificationClick = (e) => {
   notificationClick = "not event emitter" + JSON.stringify(e);
 };
 
-//@ts-ignore
 Notifications.onNotificationReceive = (e) => {
   notificationReceiveString = "not event emitter" + JSON.stringify(e);
   return [
