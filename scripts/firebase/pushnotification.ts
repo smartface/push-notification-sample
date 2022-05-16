@@ -8,31 +8,19 @@ export function getFcmToken(): string {
   return fcmToken;
 }
 
-Notifications.on("notificationReceive", (e) => {
-  alert(JSON.stringify(e, null, 4));
-  notificationReceiveString = JSON.stringify(e);
-  return [
-    Notifications.iOS.NotificationPresentationOptions.SOUND,
-    Notifications.iOS.NotificationPresentationOptions.ALERT,
-  ]; // or []
-});
-
 Notifications.onNotificationClick = (e) => {
-  notificationClick = "not event emitter" + JSON.stringify(e);
+  alert("onNotificationClick" + JSON.stringify(e, null, 4));
+  notificationClick = JSON.stringify(e);
 };
 
 Notifications.onNotificationReceive = (e) => {
-  notificationReceiveString = "not event emitter" + JSON.stringify(e);
+  notificationReceiveString = JSON.stringify(e);
+  alert("onNotificationReceive" + JSON.stringify(e, null, 4));
   return [
     Notifications.iOS.NotificationPresentationOptions.SOUND,
     Notifications.iOS.NotificationPresentationOptions.ALERT,
   ];
 };
-
-Notifications.on("notificationClick", (e) => {
-  notificationClick = JSON.stringify(e);
-  alert(JSON.stringify(e, null, 4));
-});
 
 Firebase.messaging.subscribeToTopic("all"); //this triggers register for notifications
 
