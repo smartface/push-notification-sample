@@ -1,42 +1,35 @@
-import buildExtender from "@smartface/extension-utils/lib/router/buildExtender";
-import {
-    NativeRouter as Router,
-    NativeStackRouter as StackRouter,
-    Route
-} from "@smartface/router";
-import "@smartface/extension-utils/lib/router/goBack"; // Implements onBackButtonPressed
+import { NativeRouter, NativeStackRouter, Route } from "@smartface/router";
+import Application from "@smartface/native/application";
+import Page1 from "pages/page1";
+import PageCrashlytics from "pages/pageCrashlytics";
 
-const router = Router.of({
-    path: "/",
-    isRoot: true,
-    routes: [
-        StackRouter.of({
-            path: "/pages",
-            routes: [
-                Route.of({
-                    path: "/pages/page1",
-                    build: buildExtender({ 
-                        getPageClass: () => require("pages/page1").default, 
-                        headerBarStyle: { visible: true } 
-                    })
-                }),
-                Route.of({
-                    path: "/pages/page2",
-                    build: buildExtender({ 
-                        getPageClass: () => require("pages/page2").default, 
-                        headerBarStyle: { visible: true } 
-                    })
-                }),
-                Route.of({
-                    path: "/pages/crashlytics",
-                    build: buildExtender({ 
-                        getPageClass: () => require("pages/pageCrashlytics").default, 
-                        headerBarStyle: { visible: true } 
-                    })
-                })
-            ]
-        })
-    ]
+Application.on("backButtonPressed", () => {
+  NativeRouter.getActiveRouter()?.goBack();
+});
+
+
+const router = NativeRouter.of({
+  path: "/",
+  isRoot: true,
+  routes: [
+    NativeStackRouter.of({
+      path: "/pages",
+      routes: [
+        Route.of<Page1>({
+          path: "/pages/page1",
+          build(router, route) {
+            return new Page1(router, route);
+          },
+        }),
+        Route.of<PageCrashlytics>({
+          path: "/pages/crashlytics",
+          build(router, route) {
+            return new PageCrashlytics(router, route);
+          },
+        }),
+      ],
+    }),
+  ],
 });
 
 export default router;

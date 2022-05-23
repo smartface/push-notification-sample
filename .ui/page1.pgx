@@ -2,45 +2,47 @@
 	"components": [
 		{
 			"className": ".sf-page",
-			"id": "7216-eb20-9a4e-64de",
+			"id": "d1c9-fa73-a7f8-7636",
 			"initialized": true,
 			"props": {
 				"children": [
-					"1b35-7e7f-72c3-2113",
-					"d5c3-9f19-e848-8e5e",
-					"f0af-f993-8292-39f0",
-					"65e4-4cb5-36b2-3496",
-					"d68c-1243-8972-7e2b",
-					"a7f0-ed84-76e7-5360",
-					"9414-33e6-71a9-a338"
+					"49e9-8951-bc6f-a860",
+					"4541-5d34-66d5-3c20",
+					"0865-4e7e-77ee-cb5e",
+					"bc2c-84dd-8961-c600",
+					"43cc-6cb2-4cdd-aa8b",
+					"f9eb-870f-39b6-a0cf",
+					"0019-923a-0bb2-67aa",
+					"2649-975c-02ad-4304"
 				],
 				"name": "page1",
 				"orientation": "PORTRAIT",
 				"parent": null
 			},
 			"type": "Page",
-			"userProps": {}
+			"userProps": {},
+			"version": "0.0.1.a"
 		},
 		{
 			"className": ".sf-statusBar",
-			"id": "1b35-7e7f-72c3-2113",
+			"id": "49e9-8951-bc6f-a860",
 			"props": {
 				"children": [],
 				"isRemovable": false,
 				"name": "statusBar",
-				"parent": "7216-eb20-9a4e-64de"
+				"parent": "d1c9-fa73-a7f8-7636"
 			},
 			"type": "StatusBar",
 			"userProps": {}
 		},
 		{
 			"className": ".sf-headerBar",
-			"id": "d5c3-9f19-e848-8e5e",
+			"id": "4541-5d34-66d5-3c20",
 			"props": {
 				"children": [],
 				"isRemovable": false,
 				"name": "headerBar",
-				"parent": "7216-eb20-9a4e-64de",
+				"parent": "d1c9-fa73-a7f8-7636",
 				"title": "page1"
 			},
 			"type": "HeaderBar",
@@ -50,97 +52,168 @@
 		},
 		{
 			"className": ".sf-button",
-			"id": "f0af-f993-8292-39f0",
+			"id": "0865-4e7e-77ee-cb5e",
+			"oldName": "button1",
 			"props": {
 				"children": [],
 				"name": "btnGetTokens",
-				"parent": "7216-eb20-9a4e-64de",
+				"parent": "d1c9-fa73-a7f8-7636",
 				"text": "Get Tokens",
 				"usePageVariable": true
 			},
+			"ref": null,
 			"type": "Button",
 			"userProps": {
-				"testId": "BBKNZ6nI8",
+				"testId": "u78lwUdyc",
 				"text": "Get Tokens",
 				"usePageVariable": true
 			}
 		},
 		{
 			"className": ".sf-button",
-			"id": "65e4-4cb5-36b2-3496",
+			"id": "bc2c-84dd-8961-c600",
+			"oldName": "button1",
 			"props": {
 				"children": [],
 				"name": "btnGoCrashlytics",
-				"parent": "7216-eb20-9a4e-64de",
+				"parent": "d1c9-fa73-a7f8-7636",
 				"text": "Go Crashlytics",
 				"usePageVariable": true
 			},
+			"ref": null,
 			"type": "Button",
 			"userProps": {
-				"testId": "BBKNZ6nI8",
+				"testId": "fvmBzXQgWi",
 				"text": "Go Crashlytics",
 				"usePageVariable": true
 			}
 		},
 		{
-			"className": ".sf-label",
-			"id": "d68c-1243-8972-7e2b",
+			"className": ".sf-button",
+			"id": "43cc-6cb2-4cdd-aa8b",
+			"oldName": "btnGoCrashlytics_1",
 			"props": {
 				"children": [],
-				"name": "lblFcmToken",
-				"parent": "7216-eb20-9a4e-64de",
-				"text": "Fcm Token",
+				"name": "btnGetInfo",
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "Get Notification Event Strings",
 				"usePageVariable": true
 			},
+			"ref": null,
+			"type": "Button",
+			"userProps": {
+				"testId": "fvmBzXQgWi",
+				"text": "Get Notification Event Strings",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "f9eb-870f-39b6-a0cf",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<br>",
+				"name": "tvFcmToken",
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "\n",
+				"usePageVariable": true
+			},
+			"ref": null,
 			"type": "TextView",
 			"userProps": {
-				"flexProps": {
-					"flexGrow": 1
-				},
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
 				"font": {
-					"size": 14,
-					"bold": true,
-					"italic": false,
-					"family": "SFProText",
-					"style": "Semibold"
+					"name": "",
+					"family": "",
+					"style": "Bold",
+					"bold": true
 				},
-				"height": null,
+				"height": 100,
+				"html": "<br>",
 				"maxLines": 0,
-				"testId": "Loy6xvE_c",
-				"text": "Fcm Token",
+				"testId": "IAzwZ3Nlh",
+				"text": "\n",
 				"usePageVariable": true
 			}
 		},
 		{
 			"className": ".sf-label",
-			"id": "a7f0-ed84-76e7-5360",
+			"id": "0019-923a-0bb2-67aa",
+			"oldName": "label1",
 			"props": {
 				"children": [],
 				"name": "lblShareInfo",
-				"parent": "7216-eb20-9a4e-64de",
-				"text": "Tap on labels to Share them"
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "Tap on labels to Share them",
+				"usePageVariable": true
 			},
 			"type": "Label",
 			"userProps": {
-				"testId": "Zv8e3Kid7",
+				"testId": "AxLsj3tHtW",
 				"text": "Tap on labels to Share them",
-				"textAlignment": "MIDCENTER"
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true
 			}
 		},
 		{
-			"className": ".sf-flexLayout",
-			"id": "9414-33e6-71a9-a338",
+			"className": ".sf-scrollView",
+			"id": "2649-975c-02ad-4304",
 			"props": {
-				"children": [],
-				"name": "flexLayout1",
-				"parent": "7216-eb20-9a4e-64de"
+				"children": [
+					"008b-a8a0-8d12-3488",
+					"71d8-93b9-c23b-c833"
+				],
+				"name": "scrollView1",
+				"parent": "d1c9-fa73-a7f8-7636"
 			},
-			"type": "FlexLayout",
+			"type": "ScrollView",
 			"userProps": {
 				"flexProps": {
-					"flexGrow": 2
-				},
-				"testId": "bst6Kb2cX"
+					"flexGrow": 1
+				}
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "008b-a8a0-8d12-3488",
+			"oldName": "lblShareInfo_1",
+			"props": {
+				"children": [],
+				"name": "lblNotificationReceive",
+				"parent": "2649-975c-02ad-4304",
+				"text": "NotificationReceiveStrings",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"height": 200,
+				"maxLines": 0,
+				"testId": "AxLsj3tHtW",
+				"text": "NotificationReceiveStrings",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "71d8-93b9-c23b-c833",
+			"oldName": "lblNotificationReceive_1",
+			"props": {
+				"children": [],
+				"name": "lblNotificationClick",
+				"parent": "2649-975c-02ad-4304",
+				"text": "NotificationClickStrings",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"height": 150,
+				"maxLines": 0,
+				"testId": "AxLsj3tHtW",
+				"text": "NotificationClickStrings",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true
 			}
 		}
 	]

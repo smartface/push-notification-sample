@@ -1,35 +1,39 @@
-import Page1Design from 'generated/pages/page1';
-import Share from '@smartface/native/global/share';
+import Page1Design from "generated/pages/page1";
+import Share from "@smartface/native/global/share";
+import { Route, Router } from "@smartface/router";
 
-import * as PushNotification from 'firebase/pushnotification';
+import * as PushNotification from "firebase/pushnotification";
 
 export default class Page1 extends Page1Design {
-	router: any;
-	constructor() {
-		super();
-		this.onShow = onShow.bind(this, this.onShow.bind(this));
-		this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
-		this.btnGetTokens.onPress = () => this.initLabels();
-        this.btnGoCrashlytics.onPress = () => this.router.push('crashlytics')
-	}
+  fcmToken: string;
+  constructor(private router?: Router, private route?: Route) {
+    super({});
+    this.btnGetTokens.onPress = () => this.initLabels();
+    this.btnGoCrashlytics.onPress = () => this.router.push("crashlytics");
+    this.tvFcmToken.on("touch", () =>
+      Share.share({
+        page: this,
+        items: [this.fcmToken],
+        blacklist: [],
+      })
+    );
+    this.btnGetInfo.on("press", () => {
+      this.lblNotificationClick.text = PushNotification.notificationClick;
+      this.lblNotificationReceive.text =
+        PushNotification.notificationReceiveString;
+    });
+  }
 
-	initLabels() {
-		const fcmToken = PushNotification.getFcmToken();
-		this.lblFcmToken.onTouchEnded = () => Share.share({
-			page: this,
-			items: [fcmToken],
-			blacklist: []
-		});
-		this.lblFcmToken.text = `Fcm or Firebase Token : ${fcmToken}`;
-	}
-}
+  initLabels() {
+    this.fcmToken = PushNotification.getFcmToken();
+    this.tvFcmToken.text = `Fcm or Firebase Token : ${this.fcmToken}`;
+  }
 
-function onShow(superOnShow: () => void) {
-	superOnShow();
+  onShow() {
+    super.onShow();
+  }
 
-}
-
-
-function onLoad(superOnLoad: () => void) {
-	superOnLoad();
+  onLoad() {
+    super.onLoad();
+  }
 }
