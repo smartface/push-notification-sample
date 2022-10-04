@@ -24,3 +24,6 @@ scripts/generated
 /packages
 dist
 .theia/compiler_status.json
+.theia/dis_ws_diff.zip
+.theia/requested_files_debug.json
+.theia/ws_diff.json

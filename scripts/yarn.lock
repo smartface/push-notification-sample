@@ -3,19 +3,19 @@
 
 
 "@smartface/component-keyboardlayout@^5.0.0":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@smartface/component-keyboardlayout/-/component-keyboardlayout-5.0.3.tgz#453b321ec799fcfe9dbbe4de210abf4053cce4d2"
-  integrity sha512-1+Q+A7+yryKllsFJieYUaq7CwNIde41ZzFX3GQ2TmJ2Dj9Th63dbunm/u4duMCUV0Jjoq00ri7iPoGgyfALRZA==
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@smartface/component-keyboardlayout/-/component-keyboardlayout-5.0.4.tgz#d204d2bb1695d04d2d4a5454ea08970c6256717b"
+  integrity sha512-K/8VHTsYe0TS98F5CEB0V2RU8g43NMI1InWLHT0iUogSxsH2ilwf5RpwPojDr0n2vay6IiT1rEtrLKdZZ58tfw==
 
 "@smartface/component-materialtextbox@^7.0.2":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.4.tgz#e14bf6f6cb835d69629906b923d1d5de7279e334"
-  integrity sha512-euOwFCSBFoW5JOYlB39A3x8I61z1XMjmfYn1Ak4FFPxuRZT+RneX0dZtrW+Ezxot3GHXp01j80SPoR6HK66btQ==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.6.tgz#7af080550d50a78563eabd930814a058836dc3ee"
+  integrity sha512-1OjzdYYfx0dkTzZ90NP2mcwcOy5s4MVbGHDU0svFhyGuTxieITgEEfVCWXfj+j+8XvwVMmoK3E9rA8JWpaFWIA==
 
 "@smartface/contx@^4.2.0":
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/@smartface/contx/-/contx-4.2.8.tgz#16ddbaa8f9aa56d27a8427b9f97d455648a7671a"
-  integrity sha512-zj0h2L7UPiPHaYj/j7tk8dAQM2D6WE+726zDFvin+pCkHxbeYxXdlwGUEoXCVF4wktPlQ9L/G6SdBCf5C9kYPA==
+  version "4.2.10"
+  resolved "https://registry.yarnpkg.com/@smartface/contx/-/contx-4.2.10.tgz#4614e06dacf69960afd58ea7ae0b018421815b75"
+  integrity sha512-b70hKqon0hTUC4Jzw10szar4HAVyu8wYWUFdBRqn5KkzTRwxMvfFiVhfGe4oNxAp2p+yeQvMNxtC36NGTW+nlg==
   dependencies:
     "@smartface/html-to-text" "^1.0.0"
     "@smartface/styler" "^2.0.0"
@@ -55,9 +55,9 @@
     "@smartface/core" "^5.0.3"
 
 "@smartface/native@alpha":
-  version "5.0.4-alpha.34"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.4-alpha.34.tgz#3faf77fc548dfaf2237a1ee54483faa414b9605b"
-  integrity sha512-tuLDRTgDTW7mPBhqoDEgOTvYOgaSS5U5JKEPYz3Nh1kh9r0nA0ColrJB7Iqm9RxQ55rKNLBWpKt/g+C2CEIA7Q==
+  version "5.0.4-alpha.52"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.4-alpha.52.tgz#5061a7c7a3a2d0341ef7757cf16fc44da7f2f754"
+  integrity sha512-iGLLH5vnfHoBEMd4hsjbgc9wDtWYYtywprJ9lA741Om6IBWNjsATGbVWl2Uqx3Ysirwox4qdOFGOkla0olTdWg==
   dependencies:
     abort-controller "^3.0.0"
     events "^3.3.0"
@@ -68,9 +68,9 @@
   integrity sha512-Q2cNrg3LqADtM0ckcX+EF1PSon7RChV78G95VePn8gFK0umeRtENja8yeDFcj3xr2lE48j2+ZYmmoZ/OfCu43A==
 
 "@smartface/router@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.3.1.tgz#47c24fa04b05ed27b89712c8912f128d97e3458e"
-  integrity sha512-Cq/aZXNfYDbsO3XOq1WL9V9Sssv3usgMkoZyXzQIxEpKt529iMZabyNkpIQev8VYg10eF5z5MaeipTRCWxh7EA==
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.4.1.tgz#b968e247d99db15239b2321c066c95fc1fd0f15e"
+  integrity sha512-A+xK+ur2ac4WtAa/ddmPa0VYbdPIT7mOhl8JB/gRF/n5swDTj8AYDygT/HIP9T9mIi/Qnl59kFo4RVUFGL2ZMQ==
   dependencies:
     path-to-regexp "^2.4.0"
     resolve-pathname "^2.2.0"
@@ -83,14 +83,14 @@
     source-map "0.6.1"
 
 "@smartface/styler@^2.0.0":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-2.0.3.tgz#e144b4054faeffa4fa0432af0d84f48664dddee2"
-  integrity sha512-GNYwWDQamYd6Qka9sI1kjZTsWbxEjPSRKlHOYLBaGT/CJfRXt7BOPyZS5yO8/6J/2LAdZE5VOko9By3fuJ+bWA==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-2.1.0.tgz#a4d200f80c391352af52c5b9fce3035939af2619"
+  integrity sha512-c/SAF3eelLmA/k19Y1frDb+Vauw0OHV27gl1S0DwINA5saz1kN6InYYYmmxc4SJMX4lCeMNgCJZMK2X57vzEfg==
 
 "@smartface/styling-context@^5.0.5-alpha":
-  version "5.0.5-alpha.2"
-  resolved "https://registry.yarnpkg.com/@smartface/styling-context/-/styling-context-5.0.5-alpha.2.tgz#c73277fd1345fd1d2e602f9614fb849affbdbde1"
-  integrity sha512-bI1bR+bCJ4vS17+bbguUu9fioje+ryCekEXt9af7QukdF8+aNN805nyC+UoSHENQzxn50TlvGlzrX8uNyTz2bw==
+  version "5.0.5-alpha.10"
+  resolved "https://registry.yarnpkg.com/@smartface/styling-context/-/styling-context-5.0.5-alpha.10.tgz#5fe7da125796e3a529aa728599c9e5e8f4e310ae"
+  integrity sha512-ZWkcqfQKi0vok5LU2N014n/D0pGPBNF66OhnMV2x/jQSgYPgQKEz5/Ln84drr4iRBSGYvL1mlMWa3pkCL7OFug==
   dependencies:
     "@smartface/contx" "^4.2.0"
     "@smartface/styler" "^2.0.0"
@@ -104,15 +104,15 @@
 
 abort-controller@^3.0.0:
   version "3.0.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
+  resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
   integrity sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
   dependencies:
     event-target-shim "^5.0.0"
 
 apexcharts@^3.26.3:
-  version "3.35.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/apexcharts/-/apexcharts-3.35.2.tgz#90faafffa055ce502f73b11008ba77238e94228f"
-  integrity sha512-VOSb25mrcSv/JjaWKjnasL8277cqnA0Gp20uV1+rlgE4U6j44fdTYW850Powl+S8RkXd/lPwzBB2jvKkEOHl0Q==
+  version "3.35.5"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.35.5.tgz#c5a950f6f7be35ff4f4509b2179ff538d366c6ec"
+  integrity sha512-Bi3aq35xWntI71JlywXTBBAOhuKTbB4wijKw4ClkIAFV904YDkHPIJ8N9LcZq9fvVb0VX1AEmyOFBOB2Vwsuew==
   dependencies:
     svg.draggable.js "^2.2.2"
     svg.easing.js "^2.0.0"
@@ -123,63 +123,63 @@ apexcharts@^3.26.3:
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+  integrity sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==
 
 event-target-shim@^5.0.0:
   version "5.0.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
+  resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
   integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
 
 events@^3.3.0:
   version "3.3.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
+  resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
 filter-obj@^1.1.0:
   version "1.1.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
-  integrity sha1-mzERErxsYSehbgFsbF1/GeCAXFs=
+  resolved "https://registry.yarnpkg.com/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
+  integrity sha512-8rXg1ZnX7xzy2NGDVkBVaAy+lSlPNwad13BtgSlLuxfIslyt5Vg64U7tFcCt4WS1R0hvtnQybT/IyCkGZ3DpXQ==
 
 filtrex@^0.5.4:
   version "0.5.4"
-  resolved "https://cd.smartface.io/repository/npm-all-public/filtrex/-/filtrex-0.5.4.tgz#98075d518f068c4f58b7b589a227d98bd9f6395d"
-  integrity sha1-mAddUY8GjE9Yt7WJoifZi9n2OV0=
+  resolved "https://registry.yarnpkg.com/filtrex/-/filtrex-0.5.4.tgz#98075d518f068c4f58b7b589a227d98bd9f6395d"
+  integrity sha512-2phGAjWOYRf96Al6s+w/hMjObP1cRyQ95hoZApjeFO75DXN4Flh9uuUAtL3LI4fkryLa2QWdA8MArvt0GMU0pA==
 
 for-in@^1.0.2:
   version "1.0.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
-  integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
+  resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
+  integrity sha512-7EwmXrOjyL+ChxMhmG5lnW9MPt1aIeZEwKhQzoBUdTV0N3zuwWDZYVJatDvZ2OyzPUvdIAZDsCetk3coyMfcnQ==
 
 html-parse-stringify@1.0.2:
   version "1.0.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/html-parse-stringify/-/html-parse-stringify-1.0.2.tgz#1208e98cd7430ad7efb12e1e7acee9214fd22283"
-  integrity sha1-EgjpjNdDCtfvsS4ees7pIU/SIoM=
+  resolved "https://registry.yarnpkg.com/html-parse-stringify/-/html-parse-stringify-1.0.2.tgz#1208e98cd7430ad7efb12e1e7acee9214fd22283"
+  integrity sha512-4RzCiLUcRMt/p0YUcyXIt51qmP6f+TG8wX4yThrK6UkOX3bfy9DE1VHWD9mr7mNgr1BtYTMJ6EweNwj24D546w==
   dependencies:
     void-elements "^1.0.0"
 
 is-extendable@^1.0.1:
   version "1.0.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/is-extendable/-/is-extendable-1.0.1.tgz#a7470f9e426733d81bd81e1155264e3a3507cab4"
+  resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-1.0.1.tgz#a7470f9e426733d81bd81e1155264e3a3507cab4"
   integrity sha512-arnXMxT1hhoKo9k1LZdmlNyJdDDfy2v0fXjFlmok4+i8ul/6WlbVge9bhM74OpNPQPMGUToDtz+KXa1PneJxOA==
   dependencies:
     is-plain-object "^2.0.4"
 
 is-plain-object@^2.0.4:
   version "2.0.4"
-  resolved "https://cd.smartface.io/repository/npm-all-public/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
   integrity sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
   dependencies:
     isobject "^3.0.1"
 
 isobject@^3.0.1:
   version "3.0.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
-  integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+  resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
 
 mixin-deep@^1.3.1:
   version "1.3.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/mixin-deep/-/mixin-deep-1.3.2.tgz#1120b43dc359a785dce65b55b82e257ccf479566"
+  resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.2.tgz#1120b43dc359a785dce65b55b82e257ccf479566"
   integrity sha512-WRoDn//mXBiJ1H40rqa3vH0toePwSsGb45iInWlTySa+Uu4k3tYUSxa2v1KqAiLtvlrSzaExqS1gtk96A9zvEA==
   dependencies:
     for-in "^1.0.2"
@@ -187,12 +187,12 @@ mixin-deep@^1.3.1:
 
 path-to-regexp@^2.4.0:
   version "2.4.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/path-to-regexp/-/path-to-regexp-2.4.0.tgz#35ce7f333d5616f1c1e1bfe266c3aba2e5b2e704"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.4.0.tgz#35ce7f333d5616f1c1e1bfe266c3aba2e5b2e704"
   integrity sha512-G6zHoVqC6GGTQkZwF4lkuEyMbVOjoBKAEybQUypI1WTkqinCOrq2x6U2+phkJ1XsEMTy4LjtwPI7HW+NVrRR2w==
 
 query-string@^6.10.1:
   version "6.14.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/query-string/-/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
   integrity sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw==
   dependencies:
     decode-uri-component "^0.2.0"
@@ -202,70 +202,70 @@ query-string@^6.10.1:
 
 resolve-pathname@^2.2.0:
   version "2.2.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/resolve-pathname/-/resolve-pathname-2.2.0.tgz#7e9ae21ed815fd63ab189adeee64dc831eefa879"
+  resolved "https://registry.yarnpkg.com/resolve-pathname/-/resolve-pathname-2.2.0.tgz#7e9ae21ed815fd63ab189adeee64dc831eefa879"
   integrity sha512-bAFz9ld18RzJfddgrO2e/0S2O81710++chRMUxHjXOYKF6jTAMrUNZrEZ1PvV0zlhfjidm08iRPdTLPno1FuRg==
 
 semver@^5.7.1:
   version "5.7.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
 source-map@0.6.1:
   version "0.6.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
 split-on-first@^1.0.0:
   version "1.1.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+  resolved "https://registry.yarnpkg.com/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
   integrity sha512-43ZssAJaMusuKWL8sKUBQXHWOpq8d6CfN/u1p4gUzfJkM05C8rxTmYrkIPTXapZpORA6LkkzcUulJ8FqA7Uudw==
 
 squel@^5.13.0:
   version "5.13.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/squel/-/squel-5.13.0.tgz#09cc73e91f0d0e326482605ee76e3b7ac881ddf6"
+  resolved "https://registry.yarnpkg.com/squel/-/squel-5.13.0.tgz#09cc73e91f0d0e326482605ee76e3b7ac881ddf6"
   integrity sha512-Fzd8zqbuqNwzodO3yO6MkX8qiDoVBuwqAaa3eKNz4idhBf24IQHbatBhLUiHAGGl962eGvPVRxzRuFWZlSf49w==
 
 strict-uri-encode@^2.0.0:
   version "2.0.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
-  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
+  resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+  integrity sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==
 
 svg.draggable.js@^2.2.2:
   version "2.2.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.draggable.js/-/svg.draggable.js-2.2.2.tgz#c514a2f1405efb6f0263e7958f5b68fce50603ba"
+  resolved "https://registry.yarnpkg.com/svg.draggable.js/-/svg.draggable.js-2.2.2.tgz#c514a2f1405efb6f0263e7958f5b68fce50603ba"
   integrity sha512-JzNHBc2fLQMzYCZ90KZHN2ohXL0BQJGQimK1kGk6AvSeibuKcIdDX9Kr0dT9+UJ5O8nYA0RB839Lhvk4CY4MZw==
   dependencies:
     svg.js "^2.0.1"
 
 svg.easing.js@^2.0.0:
   version "2.0.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.easing.js/-/svg.easing.js-2.0.0.tgz#8aa9946b0a8e27857a5c40a10eba4091e5691f12"
-  integrity sha1-iqmUawqOJ4V6XEChDrpAkeVpHxI=
+  resolved "https://registry.yarnpkg.com/svg.easing.js/-/svg.easing.js-2.0.0.tgz#8aa9946b0a8e27857a5c40a10eba4091e5691f12"
+  integrity sha512-//ctPdJMGy22YoYGV+3HEfHbm6/69LJUTAqI2/5qBvaNHZ9uUFVC82B0Pl299HzgH13rKrBgi4+XyXXyVWWthA==
   dependencies:
     svg.js ">=2.3.x"
 
 svg.filter.js@^2.0.2:
   version "2.0.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.filter.js/-/svg.filter.js-2.0.2.tgz#91008e151389dd9230779fcbe6e2c9a362d1c203"
-  integrity sha1-kQCOFROJ3ZIwd5/L5uLJo2LRwgM=
+  resolved "https://registry.yarnpkg.com/svg.filter.js/-/svg.filter.js-2.0.2.tgz#91008e151389dd9230779fcbe6e2c9a362d1c203"
+  integrity sha512-xkGBwU+dKBzqg5PtilaTb0EYPqPfJ9Q6saVldX+5vCRy31P6TlRCP3U9NxH3HEufkKkpNgdTLBJnmhDHeTqAkw==
   dependencies:
     svg.js "^2.2.5"
 
 svg.js@>=2.3.x, svg.js@^2.0.1, svg.js@^2.2.5, svg.js@^2.4.0, svg.js@^2.6.5:
   version "2.7.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.js/-/svg.js-2.7.1.tgz#eb977ed4737001eab859949b4a398ee1bb79948d"
+  resolved "https://registry.yarnpkg.com/svg.js/-/svg.js-2.7.1.tgz#eb977ed4737001eab859949b4a398ee1bb79948d"
   integrity sha512-ycbxpizEQktk3FYvn/8BH+6/EuWXg7ZpQREJvgacqn46gIddG24tNNe4Son6omdXCnSOaApnpZw6MPCBA1dODA==
 
 svg.pathmorphing.js@^0.1.3:
   version "0.1.3"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.pathmorphing.js/-/svg.pathmorphing.js-0.1.3.tgz#c25718a1cc7c36e852ecabc380e758ac09bb2b65"
+  resolved "https://registry.yarnpkg.com/svg.pathmorphing.js/-/svg.pathmorphing.js-0.1.3.tgz#c25718a1cc7c36e852ecabc380e758ac09bb2b65"
   integrity sha512-49HWI9X4XQR/JG1qXkSDV8xViuTLIWm/B/7YuQELV5KMOPtXjiwH4XPJvr/ghEDibmLQ9Oc22dpWpG0vUDDNww==
   dependencies:
     svg.js "^2.4.0"
 
 svg.resize.js@^1.4.3:
   version "1.4.3"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.resize.js/-/svg.resize.js-1.4.3.tgz#885abd248e0cd205b36b973c4b578b9a36f23332"
+  resolved "https://registry.yarnpkg.com/svg.resize.js/-/svg.resize.js-1.4.3.tgz#885abd248e0cd205b36b973c4b578b9a36f23332"
   integrity sha512-9k5sXJuPKp+mVzXNvxz7U0uC9oVMQrrf7cFsETznzUDDm0x8+77dtZkWdMfRlmbkEEYvUn9btKuZ3n41oNA+uw==
   dependencies:
     svg.js "^2.6.5"
@@ -273,24 +273,24 @@ svg.resize.js@^1.4.3:
 
 svg.select.js@^2.1.2:
   version "2.1.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.select.js/-/svg.select.js-2.1.2.tgz#e41ce13b1acff43a7441f9f8be87a2319c87be73"
+  resolved "https://registry.yarnpkg.com/svg.select.js/-/svg.select.js-2.1.2.tgz#e41ce13b1acff43a7441f9f8be87a2319c87be73"
   integrity sha512-tH6ABEyJsAOVAhwcCjF8mw4crjXSI1aa7j2VQR8ZuJ37H2MBUbyeqYr5nEO7sSN3cy9AR9DUwNg0t/962HlDbQ==
   dependencies:
     svg.js "^2.2.5"
 
 svg.select.js@^3.0.1:
   version "3.0.1"
-  resolved "https://cd.smartface.io/repository/npm-all-public/svg.select.js/-/svg.select.js-3.0.1.tgz#a4198e359f3825739226415f82176a90ea5cc917"
+  resolved "https://registry.yarnpkg.com/svg.select.js/-/svg.select.js-3.0.1.tgz#a4198e359f3825739226415f82176a90ea5cc917"
   integrity sha512-h5IS/hKkuVCbKSieR9uQCj9w+zLHoPh+ce19bBYyqF53g6mnPB8sAtIbe1s9dh2S2fCmYX2xel1Ln3PJBbK4kw==
   dependencies:
     svg.js "^2.6.5"
 
 tinycolor2@^1.4.1:
   version "1.4.2"
-  resolved "https://cd.smartface.io/repository/npm-all-public/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
+  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
 
 void-elements@^1.0.0:
   version "1.0.0"
-  resolved "https://cd.smartface.io/repository/npm-all-public/void-elements/-/void-elements-1.0.0.tgz#6e5db1e35d591f5ac690ce1a340f793a817b2c2a"
-  integrity sha1-bl2x411ZH1rGkM4aNA95OoF7LCo=
+  resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-1.0.0.tgz#6e5db1e35d591f5ac690ce1a340f793a817b2c2a"
+  integrity sha512-Ypv2nBd59g63ouzrZaojQXHdRbnLhT1uuZtEXISmymV3MSiA5Qdwn4YxDlhBZoCYTninng14Y2J7pSrg9zq1/g==
