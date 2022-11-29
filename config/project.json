@@ -107,7 +107,7 @@
 			"android": {
 				"outputFolder": "output/Android",
 				"packageName": "io.smartface.push.sample",
-				"obfuscationEnabled": false
+				"obfuscationEnabled": true
 			}
 		},
 		"tempFolder": "output/.tmp"
