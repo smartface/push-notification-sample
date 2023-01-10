@@ -8,10 +8,15 @@ export function getFcmToken(): string {
   return fcmToken;
 }
 
-Notifications.onNotificationClick = (e) => {
-  alert("onNotificationClick" + JSON.stringify(e, null, 4));
-  notificationClick = JSON.stringify(e);
-};
+// Notifications.onNotificationClick = (e) => {
+//   alert("onNotificationClick" + JSON.stringify(e, null, 4));
+//   notificationClick = JSON.stringify(e);
+// };
+
+Notifications.on('notificationClick', (e)=>{
+    alert("onNotificationClick" + JSON.stringify(e, null, 4));
+    notificationClick = JSON.stringify(e);
+})
 
 Notifications.onNotificationReceive = (e) => {
   notificationReceiveString = JSON.stringify(e);
