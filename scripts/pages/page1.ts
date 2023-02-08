@@ -7,6 +7,7 @@ import System from "@smartface/native/device/system";
 import Application from '@smartface/native/application';
 import { PermissionResult, Permissions } from '@smartface/native/device/permission/permission';
 import Permission from "@smartface/native/device/permission";
+import Screen from "@smartface/native/device/screen";
 
 const isAndroid = System.OS === System.OSType.ANDROID;
 
@@ -23,6 +24,12 @@ export default class Page1 extends Page1Design {
                 blacklist: [],
             })
         );
+        this.button1.on('press',()=>{
+            this.lblShareInfo.text = Screen.height.toString();
+        })
+        this.button2.on('press',()=>{
+            this.lblShareInfo.text = Screen.width.toString();
+        })
         this.btnGetInfo.on("press", () => {
             this.lblNotificationClick.text = PushNotification.notificationClick;
             this.lblNotificationReceive.text =
