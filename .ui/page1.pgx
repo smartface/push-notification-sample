@@ -9,8 +9,11 @@
 					"49e9-8951-bc6f-a860",
 					"4541-5d34-66d5-3c20",
 					"0865-4e7e-77ee-cb5e",
+					"17aa-0694-77f9-85d0",
 					"bc2c-84dd-8961-c600",
 					"43cc-6cb2-4cdd-aa8b",
+					"7227-2199-7e03-babc",
+					"24e4-1efc-315c-7386",
 					"f9eb-870f-39b6-a0cf",
 					"0019-923a-0bb2-67aa",
 					"2649-975c-02ad-4304"
@@ -71,6 +74,21 @@
 		},
 		{
 			"className": ".sf-button",
+			"id": "17aa-0694-77f9-85d0",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnTest",
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "Button Test"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Button Test"
+			}
+		},
+		{
+			"className": ".sf-button",
 			"id": "bc2c-84dd-8961-c600",
 			"oldName": "button1",
 			"props": {
@@ -108,12 +126,41 @@
 			}
 		},
 		{
+			"className": ".sf-button",
+			"id": "7227-2199-7e03-babc",
+			"props": {
+				"children": [],
+				"name": "button2",
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "Width"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Width"
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "24e4-1efc-315c-7386",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "Height"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Height"
+			}
+		},
+		{
 			"className": ".sf-textView",
 			"id": "f9eb-870f-39b6-a0cf",
 			"oldName": "textView1",
 			"props": {
 				"children": [],
 				"html": "<br>",
+				"maxLines": 0,
 				"name": "tvFcmToken",
 				"parent": "d1c9-fa73-a7f8-7636",
 				"text": "\n",
@@ -180,6 +227,7 @@
 			"oldName": "lblShareInfo_1",
 			"props": {
 				"children": [],
+				"maxLines": 0,
 				"name": "lblNotificationReceive",
 				"parent": "2649-975c-02ad-4304",
 				"text": "NotificationReceiveStrings",
@@ -201,6 +249,7 @@
 			"oldName": "lblNotificationReceive_1",
 			"props": {
 				"children": [],
+				"maxLines": 0,
 				"name": "lblNotificationClick",
 				"parent": "2649-975c-02ad-4304",
 				"text": "NotificationClickStrings",
