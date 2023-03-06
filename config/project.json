@@ -101,7 +101,7 @@
 		"output": {
 			"ios": {
 				"outputFolder": "output/iOS",
-				"bundleIdentifier": "io.smartface.push.sample",
+				"bundleIdentifier": "io.smartface.push.sampleApp",
 				"targetedDeviceFamily": "universal"
 			},
 			"android": {
