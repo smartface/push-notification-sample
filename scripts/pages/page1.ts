@@ -34,7 +34,7 @@ export default class Page1 extends Page1Design {
                 id:'101',
                 name:'name',
                 description:'description',
-                sound:''
+                sound:'sound.wav'
             })
         })
         this.button2.on('press', ()=>{

@@ -13,7 +13,9 @@
 					"43cc-6cb2-4cdd-aa8b",
 					"f9eb-870f-39b6-a0cf",
 					"0019-923a-0bb2-67aa",
-					"2649-975c-02ad-4304"
+					"2649-975c-02ad-4304",
+					"3316-0826-eb10-6405",
+					"cacd-75f3-b5ea-3f3b"
 				],
 				"name": "page1",
 				"orientation": "PORTRAIT",
@@ -114,6 +116,7 @@
 			"props": {
 				"children": [],
 				"html": "<br>",
+				"maxLines": 0,
 				"name": "tvFcmToken",
 				"parent": "d1c9-fa73-a7f8-7636",
 				"text": "\n",
@@ -180,6 +183,7 @@
 			"oldName": "lblShareInfo_1",
 			"props": {
 				"children": [],
+				"maxLines": 0,
 				"name": "lblNotificationReceive",
 				"parent": "2649-975c-02ad-4304",
 				"text": "NotificationReceiveStrings",
@@ -201,6 +205,7 @@
 			"oldName": "lblNotificationReceive_1",
 			"props": {
 				"children": [],
+				"maxLines": 0,
 				"name": "lblNotificationClick",
 				"parent": "2649-975c-02ad-4304",
 				"text": "NotificationClickStrings",
@@ -214,6 +219,34 @@
 				"text": "NotificationClickStrings",
 				"textAlignment": "MIDCENTER",
 				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "3316-0826-eb10-6405",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "Add Channel"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Add Channel"
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "cacd-75f3-b5ea-3f3b",
+			"props": {
+				"children": [],
+				"name": "button2",
+				"parent": "d1c9-fa73-a7f8-7636",
+				"text": "Delete Channel"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Delete Channel"
 			}
 		}
 	]
