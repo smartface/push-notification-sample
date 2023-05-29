@@ -7,6 +7,7 @@ import System from "@smartface/native/device/system";
 import Application from '@smartface/native/application';
 import { PermissionResult, Permissions } from '@smartface/native/device/permission/permission';
 import Permission from "@smartface/native/device/permission";
+import { Notifications } from "@smartface/native/global";
 
 const isAndroid = System.OS === System.OSType.ANDROID;
 
@@ -28,6 +29,17 @@ export default class Page1 extends Page1Design {
             this.lblNotificationReceive.text =
                 PushNotification.notificationReceiveString;
         });
+        this.button1.on('press',()=>{
+            Notifications.android.createNotificationChannel({
+                id:'101',
+                name:'name',
+                description:'description',
+                sound:''
+            })
+        })
+        this.button2.on('press', ()=>{
+            Notifications.android.deleteNotificationChannel('101');
+        })
     }
 
     initLabels() {
